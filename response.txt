@@ -1,0 +1,145 @@
+{
+  "objectId": "bVonXoSUHK",
+  "createdAt": "2023-05-09T07:21:15.390Z",
+  "updatedAt": "2023-05-09T07:28:51.663Z",
+  "chosen_hotel": {
+    "data": {
+      "get_chosen_hotel": {
+        "chosen_hotel_room": {
+          "meal": "Breakfast",
+          "region": "",
+          "meal_code": "3",
+          "room_name": "Double room - Garden view",
+          "sply_code": "",
+          "avail_sply": "",
+          "hotel_sply": "",
+          "room_grade": "72762769",
+          "vendor_code": "WB",
+          "hotel_room_type_selected": "72762769~=~Double room - Garden view~=~3~=~Breakfast~=~10329343~=~WB"
+        },
+        "chosen_hotel_detail": {
+          "zip": "",
+          "star": 5,
+          "phone": "",
+          "images": [
+            {
+              "url": "https://hotelimages.sunhotels.net/HotelInfo/hotelImage.aspx?id=11463973&full=1",
+              "title": "",
+              "thumbnail": "https://hotelimages.sunhotels.net/HotelInfo/hotelImage.aspx?id=11463973"
+            },
+            {
+              "url": "https://hotelimages.sunhotels.net/HotelInfo/hotelImage.aspx?id=11463974&full=1",
+              "title": "",
+              "thumbnail": "https://hotelimages.sunhotels.net/HotelInfo/hotelImage.aspx?id=11463974"
+            },
+            {
+              "url": "https://hotelimages.sunhotels.net/HotelInfo/hotelImage.aspx?id=11463975&full=1",
+              "title": "",
+              "thumbnail": "https://hotelimages.sunhotels.net/HotelInfo/hotelImage.aspx?id=11463975"
+            },
+            {
+              "url": "https://hotelimages.sunhotels.net/HotelInfo/hotelImage.aspx?id=11463976&full=1",
+              "title": "",
+              "thumbnail": "https://hotelimages.sunhotels.net/HotelInfo/hotelImage.aspx?id=11463976"
+            },
+            {
+              "url": "https://hotelimages.sunhotels.net/HotelInfo/hotelImage.aspx?id=11463977&full=1",
+              "title": "",
+              "thumbnail": "https://hotelimages.sunhotels.net/HotelInfo/hotelImage.aspx?id=11463977"
+            },
+            {
+              "url": "https://hotelimages.sunhotels.net/HotelInfo/hotelImage.aspx?id=11463978&full=1",
+              "title": "",
+              "thumbnail": "https://hotelimages.sunhotels.net/HotelInfo/hotelImage.aspx?id=11463978"
+            },
+            {
+              "url": "https://hotelimages.sunhotels.net/HotelInfo/hotelImage.aspx?id=11463979&full=1",
+              "title": "",
+              "thumbnail": "https://hotelimages.sunhotels.net/HotelInfo/hotelImage.aspx?id=11463979"
+            },
+            {
+              "url": "https://hotelimages.sunhotels.net/HotelInfo/hotelImage.aspx?id=11463980&full=1",
+              "title": "",
+              "thumbnail": "https://hotelimages.sunhotels.net/HotelInfo/hotelImage.aspx?id=11463980"
+            }
+          ],
+          "address": "Ciputra World 1 Jl. Prof. Dr. Satrio Kav. 3-5 12940 Jakarta  Indonesia",
+          "latitude": -6.223802364920894,
+          "longitude": 106.8244283403545,
+          "facilities": [
+            "Air Conditioning",
+            "Bar",
+            "Pool",
+            "Restaurant",
+            "Wireless internet",
+            "Car parking",
+            "Disabled facilities",
+            "Gym/fitness facilities",
+            "Wheelchair access"
+          ],
+          "hotel_name": "Raffles Jakarta",
+          "descriptions": [
+            {
+              "title": "",
+              "description": "Facilities and services include air conditioning, Wi-Fi connection, bar, restaurant, pool, gym/fitness facilities, disabled facilities, wheelchair access and car parking.\n\nRooms feature television, desk and coffee/tea making facilities.\n\nAddress: Ciputra World 1, Jl. Prof. Dr. Satrio Kav. 3-5, Jakarta, 12940, Indonesia."
+            }
+          ],
+          "region_hotel": "Setiabudi, Jakarta",
+          "is_recommended": false
+        },
+        "chosen_hotel_params": {
+          "check_in": "2023-08-28",
+          "check_out": "2023-08-30",
+          "hotel_code": "Raffles Jakarta-84270",
+          "hotel_name": "Raffles Jakarta",
+          "total_room": 1,
+          "guest_adult": 2,
+          "guest_infant": 0,
+          "guest_children": 0,
+          "guest_children_ages": []
+        },
+        "chosen_hotel_prices": {
+          "cxl_policies": [
+            {
+              "cxl_fee": 0,
+              "cxl_remark": "Free cancellation",
+              "cxl_end_date": "2023-08-26T19:59:00",
+              "cxl_start_date": "2023-05-09T14:28:41"
+            },
+            {
+              "cxl_fee": 11878744,
+              "cxl_remark": "Cancellation will be charged with 100% of the total booking value.",
+              "cxl_end_date": "2023-08-27T23:59:00",
+              "cxl_start_date": "2023-08-26T20:00:00"
+            }
+          ],
+          "precode_book": "89d14588-bed3-44a5-92ea-867c80775dd1",
+          "price_detail": {
+            "total": 11878744,
+            "currency": "IDR",
+            "origin_total": 10329343,
+            "corporate_fee": 0,
+            "discount_price": 0
+          },
+          "is_refundable": true,
+          "discount_description": "",
+          "important_informations": [
+            {
+              "info": "During Ramadan season, not all services may be offered or with restricted opening hours only."
+            },
+            {
+              "info": " . No alcohol is served.Check-in hour 14:00-23:30.Car park YES (With additional debit notes)."
+            }
+          ]
+        },
+        "chosen_hotel_expired": "2023-05-09T14:41:36"
+      }
+    },
+    "header": {
+      "reason": "",
+      "messages": [],
+      "error_code": "",
+      "process_time": 466125666
+    }
+  }
+}
