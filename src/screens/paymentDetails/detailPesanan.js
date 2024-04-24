@@ -1,8 +1,16 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Image, StyleSheet, Text, TouchableOpacity, View } from "react-native";
 import { MaterialCommunityIcons } from '@expo/vector-icons';
+import moment from "moment";
 
-const DetailPesanan = () => {
+const DetailPesanan = ({ data }) => {
+  const checkIn = moment(data.chosen_hotel_params.check_in)
+  const checkOut = moment(data.chosen_hotel_params.check_out)
+  const duration = checkOut.diff(checkIn, 'days')
+
+  const formattedCheckIn = checkIn.format('DD MMMM YYYY')
+  const formattedCheckOut = checkOut.format('DD MMMM YYYY')
+
   return (
     <View>
       <View style={styles.container}>
@@ -28,22 +36,23 @@ const DetailPesanan = () => {
           <TouchableOpacity>
             <View style={styles.curvedBox}>
               <View style={styles.detailCurvedBox}>
-                <Image source={require('../../../assets/photos/novotel.jpg')} style={styles.image} />
+                {/* <Image source={require('../../../assets/photos/novotel.jpg')} style={styles.image} /> */}
+                <Image source={{ uri: `${data.chosen_hotel_detail.images[0].url}` }} style={styles.image} />
                 <View style={styles.detailTextContainer}>
-                  <Text style={styles.hotelText}>Novotel Tangerang</Text>
-                  <Text style={styles.hotelDetailText}>Executive Suit Room with Breakfast</Text>
-                  <Text style={styles.hotelDetailText}>1 Kamar • Quadruple • 2 Tamu • 10 Malam</Text>
+                  <Text style={styles.hotelText}>{data.chosen_hotel_detail.hotel_name}</Text>
+                  <Text style={styles.hotelDetailText}>{data.chosen_hotel_room.room_name}</Text>
+                  <Text style={styles.hotelDetailText}>{data.chosen_hotel_params.total_room} Kamar • {data.chosen_hotel_params.guest_adult === 2 ? 'Double' : 'Single'} • {data.chosen_hotel_params.guest_adult} Tamu • {duration} Malam</Text>
                 </View>
               </View>
             </View>
           </TouchableOpacity>
           <View style={styles.checkContainer}>
             <Text style={styles.checkText}>Check-In</Text>
-            <Text style={styles.checkStatus}>24 April 2024</Text>
+            <Text style={styles.checkStatus}>{formattedCheckIn}</Text>
           </View>
           <View style={styles.checkContainer}>
             <Text style={styles.checkText}>Check-Out</Text>
-            <Text style={styles.checkStatus}>28 April 2024</Text>
+            <Text style={styles.checkStatus}>{formattedCheckOut}</Text>
           </View>
           <View style={styles.refundContainer}>
             <MaterialCommunityIcons name="cash-refund" size={18} color="#FFA756" />

@@ -32,9 +32,9 @@ const DetailPemesan = () => {
         <View style={styles.curvedBox}>
           <View style={styles.detailCurvedBox}>
             <View style={styles.detailTextContainer}>
-              <Text style={styles.pemesanText}>Tn. Pandu Widiatmika</Text>
-              <Text style={styles.pemesanDetailText}>panduwidiatmika@gmail.com</Text>
-              <Text style={styles.pemesanDetailText}>+628 95 4109 3964</Text>
+              <Text style={styles.pemesanText}>Tn. Bjorn</Text>
+              <Text style={styles.pemesanDetailText}>bjorn66@gmail.com</Text>
+              <Text style={styles.pemesanDetailText}>+628 22 2222 2222</Text>
             </View>
             <TouchableOpacity>
               <Text style={styles.changeText}>Ubah</Text>
